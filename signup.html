@@ -1,70 +1,76 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Sign Up for Ubermelon</title>
+            <title>Log in to Ubermelon</title>
         </head>
         <body>
-            <h1>Sign Up for Ubermelon</h1>
+            <h1>Log in to Ubermelon</h1>
             <form action="https://ubermelon-order-form.herokuapp.com/process" method="POST">
 
+                <fieldset>
+                    <legend>Returning User</legend>
                 <!-- User name -->
-                <label>Username:
-                    <input type="text" name="username" required>
-                </label>
-                <br>
-                <br>
+                    <label>Username:
+                        <input type="text" name="username" required>
+                    </label>
+                    <br>
+                    <br>
 
-                <!-- password -->
-                <label>Password:
-                    <input type="password" name="password" required>
-                </label>
-                <br>
-                <br>
+                    <!-- password -->
+                    <label>Password:
+                        <input type="password" name="password" required>
+                    </label>
+                    <br>
+                    <br>
+                </fieldset>
 
-                <!-- First name -->
-                <label>First Name:
-                    <input type="text" name="firstname" required>
-                </label>
-                <br>
-                <br>
+                <fieldset>
+                    <legend>New User Sign Up:</legend>
+                    <!-- First name -->
+                    <label>First Name:
+                        <input type="text" name="firstname" required>
+                    </label>
+                    <br>
+                    <br>
 
-                <!-- Last name -->
-                <label>Last Name:
-                    <input type="text" name="lastname" required>
-                </label>
-                <br>
-                <br>
+                    <!-- Last name -->
+                    <label>Last Name:
+                        <input type="text" name="lastname" required>
+                    </label>
+                    <br>
+                    <br>
 
-                <!-- Email -->
-                <label>Email Address:
-                    <input type="email" name="email" required>
-                </label>
-                <br>
-                <br>
+                    <!-- Email -->
+                    <label>Email Address:
+                        <input type="email" name="email" required>
+                    </label>
+                    <br>
+                    <br>
 
-                <!-- Phone number -->
-                <label>Phone Number:
-                    <input type="tel" name="usrtel" placeholder="(555) 555-5555">
-                </label>
-                <br>
-                <br>
+                    <!-- Phone number -->
+                    <label>Phone Number:
+                        <input type="tel" name="usrtel" placeholder="(555) 555-5555">
+                    </label>
+                    <br>
+                    <br>
 
-                <!-- DOB -->
-                <label>Date Of Birth:
-                    <input type="date" name="bday" required>
-                </label>
-                <br>
-                <br>
+                    <!-- DOB -->
+                    <label>Date Of Birth:
+                        <input type="date" name="bday" required>
+                    </label>
+                    <br>
+                    <br>
 
-                <!-- URL -->
-                <label>Website:
-                    <input type="url" name="homepage" value="http://">
-                </label>
-                <br>
-                <br>
+                    <!-- URL -->
+                    <label>Website:
+                        <input type="url" name="homepage" value="http://">
+                    </label>
+                    <br>
+                    <br>
+                </fieldset>
+            <br>
 
-                <input type="submit">
-
+            <input type="submit">
 
             </form>
         </body>
